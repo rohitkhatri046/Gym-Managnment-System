@@ -1,59 +1,44 @@
-# Gym Management System [![Java CI with Maven](https://github.com/quachthientai/Gym-Management-System/actions/workflows/maven.yml/badge.svg)](https://github.com/quachthientai/Gym-Management-System/actions/workflows/maven.yml) [![BUILT WITH](https://img.shields.io/badge/BUILT%20WITH-Netbeans-blue)](https://netbeans.apache.org/) [![CodeFactor](https://www.codefactor.io/repository/github/quachthientai/gym-management-system/badge)](https://www.codefactor.io/repository/github/quachthientai/gym-management-system)
-The GMS (Gym Management System) project is the software program that tracks, maintains, and manages all the member and staff data, entirely constructed at the administrative level, only the administration has access, it was developed in Java Programming using NetBeansIDE, JFrame, and MySQL Database. That project will assist gym managers to manage their customers, and staffs. 
-- Front-end: Friendly user-interface with Java Swing  
-- Back-end: Handled by the SQL database via JDBC API to communicate with MySQL.
-- Administrative level: provided username and password {admin,admin}
-- Record of Member, Payment, and Trainer
-## System Requirements
-To execute the below project, you will need the following requirements:
-- [MySQL Community Server](https://www.edureka.co/blog/install-mysql/)
-- MySQL JDBC Connector
-- [Java](https://www.oracle.com/java/technologies/downloads/)
-- [NetBeans IDE](https://netbeans.apache.org/)
-## Screenshots
-### Log In 
-- The user will be an admin by default, and the username and password will be {admin, admin}
+🏋️‍♂️ Gym Management System (Java GUI + Database)
+Gym Management System ek desktop-based Java application hai jo gym ke members, staff aur operations ko efficiently manage karta hai. Yeh system graphical user interface (GUI) aur relational database ka use karta hai taake data entry, update aur retrieval easy aur user-friendly ho.
 
-![Login Page](https://github.com/quachthientai/Gym-Management-System/blob/master/screenshots/login.png)
+🔧 Key Features:
+Member registration with personal and fitness details
 
-### Homepage
-- The admin menu as below, consists of Add Member, Manage Member, Trainers, Members List, Payments, and Log out
+Monthly fee tracking and payment history
 
-![Home Page](https://github.com/quachthientai/Gym-Management-System/blob/master/screenshots/homepage.png)
+Staff management module
 
-### Add Member page
-- To add member, click on the option "Add Members" from admin menu
+Attendance system for members
 
-![Add Member page](https://github.com/quachthientai/Gym-Management-System/blob/master/screenshots/addmemberpage.png)
+Secure login system (optional)
 
-### Manage Member page
-- To manage member, click on the option "Manage Members" from admin menu
+Clean and interactive Java GUI
 
-![Manage Member page](https://github.com/quachthientai/Gym-Management-System/blob/master/screenshots/managememberpage.png)
+CRUD operations integrated with database
 
-### Trainers page
-- To add/manage trainer, click on the option "Trainers" from admin menu
+🛠️ Tech Stack:
+Programming Language: Java
 
-![Trainers page](https://github.com/quachthientai/Gym-Management-System/blob/master/screenshots/trainerpage.png)
+GUI Library: Swing / JavaFX (specify as per your project)
 
-### Members List page
-- To view the members, click on the option "Members List" from admin menu
+Database: MySQL / SQLite (specify as per your project)
 
-![Members List page](https://github.com/quachthientai/Gym-Management-System/blob/master/screenshots/memberlist.png)
+IDE Used: IntelliJ IDEA / Eclipse / NetBeans
 
-### Payments page
-- To manage payments, click on the option "Payments" from admin menu
+📦 How to Run:
+Clone or download the repository
 
-![Payments page](https://github.com/quachthientai/Gym-Management-System/blob/master/screenshots/paymentpage.png)
+Open project in your preferred IDE (e.g., NetBeans)
 
-## Getting started 
-- To get the database first create a database in MySQL and then put the gmsdb_dump.sql dump file in your MySQL Server 8.0\bin directory. Now in command prompt enter:
+Configure database connection (set username, password, DB name)
 
-  - cd Program Files/MySQL/MySQL Server8.0/bin “press enter"
-  - mysql –u root –p database_name < database_name.sql “press enter”
-  
-  This will complete the database transfer to your computer.
-## Contributor
-- Tai Quach <quachthientai@gmail.com>
-## License & copyright
-Licensed under the [![Apche License](https://img.shields.io/github/license/quachthientai/gym-management-system?style=plastic)](LICENSE)
+Run the main class (e.g., Main.java)
+
+Application GUI will launch
+
+✅ Ideal For:
+Java learners working on real-world database + GUI integration
+
+Academic projects or semester submissions
+
+Small gyms needing a custom management tool
